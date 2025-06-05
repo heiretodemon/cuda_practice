@@ -5,7 +5,10 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/local/cuda-12.4/include/**",
-                "/usr/include/**"
+                "/usr/include/**",
+                //"/usr/local/libtorch",
+                "/usr/local/libtorch/include/torch/csrc/api/include"
+                //"/usr/local/libtorch/include"
             ],
             "defines": [],
             "cStandard": "c17",
